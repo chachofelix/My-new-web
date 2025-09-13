@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Network Engineering Solutions</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        scroll-behavior: smooth;
+      }
+      .nav-link:hover {
+        color: #4a90e2;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 bg-white shadow-lg z-50">
+      <nav class="container mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <a href="#hero" class="text-2xl font-bold text-gray-900">
+            Network Solutions
+          </a>
+          <div class="hidden md:flex items-center space-x-8">
+            <a
+              href="#services"
+              class="nav-link text-gray-600 hover:text-blue-500 transition-colors duration-300 font-semibold"
+              >Services</a
+            >
+            <a
+              href="#portfolio"
+              class="nav-link text-gray-600 hover:text-blue-500 transition-colors duration-300 font-semibold"
+              >Projects</a
+            >
+            <a
+              href="#contact"
+              class="nav-link text-gray-600 hover:text-blue-500 transition-colors duration-300 font-semibold"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative bg-gray-900 text-white py-20 md:py-32">
+      <div class="container mx-auto px-6 text-center">
+        <h1
+          class="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight mb-4"
+        >
+          Expert Network & Surveillance Solutions
+        </h1>
+        <p class="text-lg md:text-2xl font-light mb-8 max-w-3xl mx-auto">
+          Providing reliable and secure network infrastructure for homes and
+          businesses. From camera installations to full-scale router and switch
+          configurations, we've got you covered.
+        </p>
+        <a
+          href="#contact"
+          class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300"
+        >
+          Get a Free Quote
+        </a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">
+          Our Services
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Service Card 1 -->
+          <div
+            class="bg-gray-100 p-6 rounded-xl shadow-md transition-shadow hover:shadow-xl duration-300 text-center"
+          >
+            <div class="text-blue-500 text-4xl mb-4">
+              <svg
+                class="w-12 h-12 mx-auto"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14m-5 3v5a1 1 0 001 1h2a1 1 0 001-1v-5m-5 3h5m-14 3v-5a1 1 0 011-1h10a1 1 0 011 1v5m-12 0h12"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Security Camera Installation</h3>
+            <p class="text-gray-600">
+              Complete setup of CCTV and IP camera systems for surveillance,
+              security, and peace of mind.
+            </p>
+          </div>
+          <!-- Service Card 2 -->
+          <div
+            class="bg-gray-100 p-6 rounded-xl shadow-md transition-shadow hover:shadow-xl duration-300 text-center"
+          >
+            <div class="text-blue-500 text-4xl mb-4">
+              <svg
+                class="w-12 h-12 mx-auto"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8 11V7a4 4 0 118 0v4m-5 4h2m-5-3h6a2 2 0 012 2v5a2 2 0 01-2 2H8a2 2 0 01-2-2v-5a2 2 0 012-2z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Access Point Installation</h3>
+            <p class="text-gray-600">
+              Extend your Wi-Fi network coverage with strategically placed
+              access points for seamless connectivity.
+            </p>
+          </div>
+          <!-- Service Card 3 -->
+          <div
+            class="bg-gray-100 p-6 rounded-xl shadow-md transition-shadow hover:shadow-xl duration-300 text-center"
+          >
+            <div class="text-blue-500 text-4xl mb-4">
+              <svg
+                class="w-12 h-12 mx-auto"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c1.657 0 3 1.343 3 3v2a3 3 0 01-3 3h-2a3 3 0 01-3-3v-2c0-1.657 1.343-3 3-3z"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 11h-1a1 1 0 01-1-1v-1a1 1 0 011-1h1m0 3h1a1 1 0 001-1v-1a1 1 0 00-1-1h-1"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 11h1a1 1 0 011 1v1a1 1 0 01-1 1h-1m0-3h-1a1 1 0 00-1 1v1a1 1 0 001 1h1"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Cable Running & Management</h3>
+            <p class="text-gray-600">
+              Professional installation of Ethernet and network cables to ensure
+              a clean and efficient setup.
+            </p>
+          </div>
+          <!-- Service Card 4 -->
+          <div
+            class="bg-gray-100 p-6 rounded-xl shadow-md transition-shadow hover:shadow-xl duration-300 text-center"
+          >
+            <div class="text-blue-500 text-4xl mb-4">
+              <svg
+                class="w-12 h-12 mx-auto"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 2v.01M12 22v.01M4.22 4.22l.707.707M19.78 19.78l.707.707M2 12h.01M22 12h.01M4.22 19.78l.707-.707M19.78 4.22l.707-.707M10 20h4a2 2 0 002-2v-2a2 2 0 00-2-2h-4a2 2 0 00-2 2v2a2 2 0 002 2z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-2">
+              Router & Switch Configuration
+            </h3>
+            <p class="text-gray-600">
+              Expert setup and optimization of network devices for maximum
+              performance and security.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-100">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">
+          Recent Projects
+        </h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Project Card 1 -->
+          <div
+            class="bg-white rounded-xl shadow-md overflow-hidden transition-transform transform hover:scale-105 duration-300"
+          >
+            <img
+              src="https://placehold.co/800x400/D1D5DB/1F2937?text=Office+Network+Setup"
+              alt="Office Network Setup"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-2">
+                Commercial Office Network
+              </h3>
+              <p class="text-gray-600">
+                Designed and implemented a complete network infrastructure for a
+                50-person office, including server room setup, switch
+                configuration, and wireless access points.
+              </p>
+            </div>
+          </div>
+          <!-- Project Card 2 -->
+          <div
+            class="bg-white rounded-xl shadow-md overflow-hidden transition-transform transform hover:scale-105 duration-300"
+          >
+            <img
+              src="https://placehold.co/800x400/D1D5DB/1F2937?text=Home+Security+Installation"
+              alt="Home Security Installation"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-2">
+                Residential Security System
+              </h3>
+              <p class="text-gray-600">
+                Installed a comprehensive home security system with
+                high-definition cameras, smart motion detectors, and remote
+                monitoring capabilities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center text-gray-900 mb-8">
+          Get in Touch
+        </h2>
+        <div class="max-w-xl mx-auto bg-gray-100 p-8 rounded-xl shadow-lg">
+          <form id="contactForm">
+            <div class="mb-6">
+              <label for="name" class="block text-gray-700 font-semibold mb-2"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full px-4 py-3 rounded-lg bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="John Doe"
+              />
+            </div>
+            <div class="mb-6">
+              <label for="email" class="block text-gray-700 font-semibold mb-2"
+                >Email Address</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full px-4 py-3 rounded-lg bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="john.doe@example.com"
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                for="message"
+                class="block text-gray-700 font-semibold mb-2"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                class="w-full px-4 py-3 rounded-lg bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Tell us about your project..."
+              ></textarea>
+            </div>
+            <div class="text-center">
+              <button
+                type="submit"
+                class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-6 text-center">
+        <p>&copy; 2025 Network Solutions. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
